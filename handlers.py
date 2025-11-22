@@ -109,10 +109,10 @@ def register_handlers(dp: Dispatcher):
     @dp.message(Command("info"))
     async def cmd_info(message: types.Message):
         text = (
-            "👑 <b>Основатель чата:</b> Имя Основателя\n"
-            "📜 <b>Правила чата:</b> Соблюдайте адекватность.\n"
-            "📢 <b>Канал в TG:</b> <a href='https://t.me/channel'>Перейти</a>\n"
-            "💬 <b>Чат в TG:</b> <a href='https://t.me/chat'>Перейти</a>\n"
+            "👑 <b>Основатель чата:</b> @bobowka7\n"
+            "📜 <b>Правила чата:</b> Soon...\n"
+            "📢 <b>Канал в TG:</b> <a href='https://t.me/bu_chilli_channel'>Перейти</a>\n"
+            "💬 <b>Чат в TG:</b> <a href='https://t.me/bu_chilli'>Перейти</a>\n"
             "💎 <b>Услуги:</b> Доступны по кнопке ниже."
         )
         await message.answer(text, disable_web_page_preview=True, reply_markup=get_info_keyboard())
