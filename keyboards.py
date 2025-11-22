@@ -58,11 +58,11 @@ def get_check_keyboard(user_id):
 def get_info_keyboard():
     kb = InlineKeyboardMarkup(inline_keyboard=[
         [
-            InlineKeyboardButton(text="Сообщество в ВК", url="https://vk.com/"),
-            InlineKeyboardButton(text="Чат в ВК", url="https://vk.com/im"),
+            InlineKeyboardButton(text="Сообщество в ВК", url="https://vk.com/bu_chilli"),
+            InlineKeyboardButton(text="Чат в ВК", url="https://vk.me/join/p7URv1PMqAiLIo0rBx6JdY9/oxOTQcYuiqA="),
         ],
         [
-            InlineKeyboardButton(text="💎 Услуги", url="https://example.com/services")
+            InlineKeyboardButton(text="💎 Услуги", url="t.me/bu_chilli_shop")
         ]
     ])
     return kb
